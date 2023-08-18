@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'TTTtangsbudaejjigaeB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face{
+  font-family:'bitbit';
+  src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+}
+
+@font-face {
+  font-family: 'KimjungchulGothic-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.startpage{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login_logo {
+  width: 30vh;
+  margin-top: 20vh;
+  margin-left: 15vw;
+}
+
+.login_logo_img{
+  width: 200%;
+  margin-left: 3vh;
+}
+
+.login_container {
+  align-items: center;
+  justify-content: center;
+  margin-top: 18vh;
+  margin-left: 59vh;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 200;
+  font-family:'bitbit';
+  margin-bottom: 30px;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #fde0d6;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 39vh;
+  height: 30vh;
+}
+
+.login_inputbox{
+  background-color: #fde0d6;
+}
+
+label {
+font-size: 16px;
+font-weight: bold;
+font-family: 'TTTtangsbudaejjigaeB';
+}
+
+input[type="email"] {
+  padding: 10px;
+  border: 1px solid black; 
+  border-radius: 20px;
+  width: 100%;
+  font-family: 'KimjungchulGothic-Bold';
+}
+
+input[type="password"] {
+  padding: 9px;
+  border: 1px solid black; 
+  border-radius: 20px;
+  width: 100%;
+  font-family: 'KimjungchulGothic-Bold';
+}
+
+.login {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: 'bitbit';
+}
+
+.nologin {
+  margin-top: 6vh;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: 'bitbit';
+  font-size: 30px;
+  width: 20vw;
+  height: 10vh;
+}
+
+p {
+  font-size : 13px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color:  #cf6947;
+}

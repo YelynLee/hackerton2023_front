@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face{
+    font-family:'bitbit';
+    src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+  }
+  
+  @font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+main {
+    position: relative;
+    height: 100vh;
+}
+main .helper {
+    background: rgba(0,0,0,0.2);
+    color: #e9e5d6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    padding: 1.2em 2em;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+main .helper span {
+    color: rgba(0,0,0,0.2);
+    font-size: 0.4em;
+    display: block;
+}
+.menu {
+    background-color: #fde0d6;
+    border-radius: 10px;
+    height: 100vh;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    outline: none;
+}
+
+.text_color{
+    background-color: #fde0d6;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'KimjungchulGothic-Bold';
+    text-decoration: none;
+}
+
+.menu .avatar {
+    background: rgba(0,0,0,0.1);
+    padding: 2em 0.5em;
+    text-align: center;
+}
+
+.menu .avatar img {
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #e8e3d3;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.2);
+}
+
+.menu .avatar h2 {
+    font-family: 'KimjungchulGothic-Bold';
+    font-weight: normal;
+    margin-bottom: 0;
+    background: rgba(0,0,0,0.1);
+    opacity: 50%;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0.5em 0;
+    margin: 0;
+    background-color: #fde0d6;
+}
+
+.menu ul li {
+    padding: 0.5em 1em 0.5em 3em;
+    font-size: 0.95em;
+    font-weight: regular;
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+    background-size: auto 20px;
+    transition: all 0.15s linear;
+    cursor: pointer;
+    background-color: #fde0d6;
+}
+.menu ul li.icon-all {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/5578/5578931.png");
+}
+.menu ul li.icon-chat {
+    background-image: url("https://cdn.icon-icons.com/icons2/1744/PNG/512/3643728-balloon-chat-conversation-speak-word_113413.png");
+}
+.menu ul li.icon-alert {
+    background-image: url("https://cdn.icon-icons.com/icons2/933/PNG/512/turn-notifications-on-button_icon-icons.com_72507.png");
+}
+.menu ul li.icon-mypage {
+    background-image: url("https://www.magazinetalk.co.kr/contents/images/mypage.png");
+}
+.menu ul li.icon-info {
+    margin-top: 25vh;
+    background-image: url("https://icon-library.com/images/info-icon-png/info-icon-png-26.jpg");
+}
+.menu ul li.icon-out {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/56/56805.png");
+}
+.menu ul li:hover {
+    background-color: rgba(220, 106, 106, 0.1);
+}
+
+.menu ul li.icon-star{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/93/93630.png?w=360");
+
+}
+
+.menu ul li:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 1500px) and (min-width: 400px) {
+    body {
+        padding-left: 90px;
+    }
+
+    .menu {
+        width: 90px;
+    }
+
+    .menu .avatar {
+        padding: 0.5em;
+        position: relative;
+    }
+
+    .menu .avatar img {
+        width: 60px;
+    }
+
+    .menu .avatar h2 {
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 100px;
+        margin: 0;
+        min-width: 200px;
+        border-radius: 4px;
+        background: rgba(0,0,0,0.4);
+        transform: translate3d(-20px,-50%,0);
+        transition: all 0.15s ease-in-out;
+    }
+
+    .menu .avatar:hover h2 {
+        opacity: 1;
+        transform: translate3d(0px,-50%,0);
+    }
+
+    .menu ul li {
+        height: 60px;
+        background-position: center center;
+        background-size: 30px auto;
+        position: relative;
+    }
+
+    .menu ul li span {
+        opacity: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.5);
+        padding: 0.2em 0.5em;
+        border-radius: 4px;
+        top: 50%;
+        left: 80px;
+        transform: translate3d(-15px,-50%,0);
+        transition: all 0.15s ease-in-out;
+    }
+    
+    .menu ul li span:before {
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 50%;
+        left: -5px;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-right: 5px solid rgba(0,0,0,0.5);
+        transform: translateY(-50%);
+    }
+    .menu ul li:hover span {
+        opacity: 1;
+        transform: translate3d(0px,-50%,0);
+    }
+}
+

@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family:'bitbit';
+    src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+  }
+
+@font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.profile_zone{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12vh;
+    margin-left: 24vw;
+    font-family: 'KimjungchulGothic-Bold';
+}
+
+.mypage_profile{
+    width: 20%;
+
+}
+.mypage_name{
+    margin-top: 3vh;
+}
+
+.profile {
+
+    width: 30vw;
+    height: 50vh;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: solid 3px rgb(179, 179, 179);
+    box-shadow: 10px 10px gray;
+}
+.profile_box{
+    display: flex;
+    flex-direction: column;
+}
+.posting{
+    margin-top: 5vh;
+    border-radius: 30px;
+    height: 100vh;
+    background-color: rgb(232, 232, 231);
+    box-shadow: 10px 10px gray;
+    margin-bottom: 5vh;
+}
+
+.mypage_avatar {
+    width: 30vw;
+    margin-left: 5vw;
+    border: solid 2px rgb(173, 173, 173);
+    border-radius: 30px;
+    margin-bottom: 5vh;
+    box-shadow: 10px 10px gray;
+
+}
+
+.posting_about{
+    font-size: 24px;
+
+}
+.posting-date{
+    margin-left: 10vw;
+    color: gray;
+}
+.posting-content{
+    font-size: 15px;
+    margin-left: 0vw;
+}
+
+.status {
+    margin-left: 5vw;
+    font-size: 17px;
+    width: 5vw;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+}
+.posting-react {
+    color: rgb(84, 83, 83);
+}
+
+.postcontainer{
+    margin-top: -7vh;
+    
+}
+
+.my_notice{
+    margin-top: 2vh;
+    font-size: 17px;
+    color : rgba(201, 139, 6, 0.89);
+}

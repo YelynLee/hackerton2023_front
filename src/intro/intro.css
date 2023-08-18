@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face{
+    font-family:'bitbit';
+    src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+  }
+  
+  @font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.intropage{
+    font-family: 'KimjungchulGothic-Bold';
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20vw;
+    margin-top: 10vh;
+  }
+
+.intro_ment{
+    margin-left: 12.8vw;
+    width: 50vw;
+    border-color: #484848;
+    font-size: 30px;
+  }
+.introdiv{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+.memtext{
+
+    margin-top: 10vh;
+}
+
+.intro_card {
+margin-left: 2vw;
+  width: 12vw;
+  height: 30vh;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 32px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.intro_card:hover {
+  transform: translateY(-5px);
+}
+.intro_card .title {
+  color: white;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.intro_card .title--epic {
+  background-color: #8970a1;
+}
+.intro_card .title--epic:hover {
+  box-shadow: 0 0 12px rgba(140, 20, 252, 0.8);
+}
+
+.intro_card .desc {
+  text-align: center;
+}
+.intro_card .actions {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.intro_card .actions button {
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  outline: 0;
+  transition: background-color 0.4s, color 0.4s, transform 0.1s;
+}
+.intro_card .actions button:hover {
+  color: white;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+}
+.intro_card .actions button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+}
+
+.team {
+  margin-top: 1rem;
+  color: #484848;
+}
+
+
+.memberimg{
+    width: 59%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.introdiv{
+    display: felx;
+    flex-direction: row;
+    margin-top: -5vh;
+}
+
+.memname{
+    background-color: white;
+}
+
+.team {
+    margin-top: 8vh;
+}

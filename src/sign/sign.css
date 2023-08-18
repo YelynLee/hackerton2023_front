@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family:'bitbit';
+    src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+  }
+
+@font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.page {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24vw;
+    
+}
+
+.titleWrap{
+    font-size: 50px;
+    font-weight: 200;
+    font-family:'bitbit';
+    margin-left: -20vw;
+    margin-top: 5vh;
+}
+
+.contentWrap {
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    flex: 1;
+    background-color: #FDE0D6;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.inputTitle {
+    font-family: 'TTTtangsbudaejjigaeB';
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 1vh;
+}
+
+.inputWrap {
+    width: 24vw;
+    display: flex;
+    border-radius: 30px;
+    padding: 8px;
+    margin-top: 1vh;
+    background-color: white;
+    border: 2px solid grey;
+    margin-left: 12vw;
+}
+
+.inputWrap:focus-within {
+    border: 2px solid rgb(200, 78, 17);
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'KimjungchulGothic-Bold';
+}
+
+input::placeholder {
+    color : rgb(203, 200, 200);
+}
+
+.bottomButton {
+    width: 18vw;
+    height: 5vh;
+    font-size: 20px;
+    border-color: rgb(68, 66, 63);
+    border-radius: 20px;
+    margin-top: 3vh;
+    background-color: rgb(85, 82, 78);
+    color: aliceblue;
+    font-family:'bitbit';
+    padding: 1%;
+    cursor: pointer;
+}
+
+.bottomButton:hover{
+    background-color:  #cf6947;
+}
+
+.HomeBtn {
+    width: 15vw;
+    height: 5vh;
+    font-size: 15px;
+    font-weight: 100;
+    border-color: rgb(227, 205, 178);
+    border-radius: 20px;
+    margin-top: 2.4vh;
+    margin-left: 19vw;
+    background-color: black;
+    color: white;
+    font-family:'bitbit';
+    padding: 10px;
+    cursor: pointer;
+}
+
+.inputbox2{
+    background-color: white;
+}
+
+.inputbox{
+    background-color: #fde0d6;
+  }

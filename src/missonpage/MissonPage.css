@@ -1,0 +1,110 @@
+:root {
+    --main-color: rgb(172, 98, 98);
+
+    --success-color: #4caf50;
+    --failure-color: #f44336;
+}
+.mission-page {
+    display: flex;
+    flex-direction: column;
+    font-family: 'bitbit', sans-serif;
+    padding: 20px;
+}
+
+.back-button{
+    font-family: 'KimjungchulGothic-Bold';
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(218, 104, 104, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.participants {
+    text-align: center;
+    position: fixed;
+    margin-top: 17vh; 
+    margin-left: 46vw;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 15vw;
+    height: 3.9vh;
+
+    border-radius: 30px;
+    color: white;
+    
+}
+.participants-name {
+    font-size: 20px;
+}
+.mission-status {
+    margin-left: 11.5vw;
+    margin-top: 8vh;
+}
+.upload-button {
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+  
+.mission-cards {
+    margin-top: 12vh;
+    margin-left: 12vw;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-auto-rows: minmax(180px, auto); 
+    border: none solid 1px;
+    gap: 2vw;
+}
+  
+.mission-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.mission-info {
+    background-color: white;
+    flex: 1;
+  }
+  
+.date {
+    background-color: white;
+    margin: 10px;
+    font-size: 18px;
+    color: #777;
+}
+  
+.name {
+    background-color: white;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+  
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+ }
+  
+  .success-indicator {
+    background-color: var(--success-color);
+  }
+  
+  .failure-indicator {
+    background-color: var(--failure-color);
+  }
+  
+ 

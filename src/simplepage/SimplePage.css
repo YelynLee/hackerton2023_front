@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'TTTtangsbudaejjigaeB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face{
+  font-family:'bitbit';
+  src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+}
+
+@font-face {
+  font-family: 'KimjungchulGothic-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.simple-page {
+  font-family: 'bitbit', sans-serif;
+  height: 100%;
+}
+
+.simplepage-header {
+  margin-top: 0vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 148, 148);
+}
+.simplepageimg{
+  width: 20%;
+}
+
+.simplelogo{
+  width: 3%;
+  margin-left: 5vw;
+}
+
+
+
+.category-button {
+  font-size: 16px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+
+.content {
+  padding: 20px;
+  background-color: rgb(255, 227, 225);
+  height: 40vh;
+}
+
+.faq-section {
+  font-family: 'KimjungchulGothic-Bold';
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+
+.accordion-header {
+  padding: 10px;
+  border: 1px solid pink;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+
+.accordion-content.active {
+  background-color:  rgb(255, 227, 225);
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: block;
+}
+
+.page-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back-button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(255, 148, 148);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.faqbox{
+  margin-top: 10vh;
+}
